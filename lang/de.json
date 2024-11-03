@@ -1,0 +1,251 @@
+{
+  "tinyd8": {
+    "TinyD8HeroSheet": "Held",
+    "TinyD8NpcSheet": "NSC",
+    "system": {
+      "name": "Tiny D8 2E",
+      "dieRoller": "Würfelbecher"
+    },
+    "settings": {
+      "title": "System Einstellungen",
+      "label": "System Einstellungen",
+      "description": "Wähle die optionalen Regeln und Mechanismen, die DU aktivieren möchtest, aus den folgenden Optionen aus.",
+      "theme": {
+        "name": "Thema",
+        "hint": "Bitte wähle hier das Thema für deine Tiny D8 Welt",
+        "choices": {
+          "cthulhu": "Tiny Cthulhu",
+          "dungeon": "Tiny Dungeon 2.Edition"
+        }
+      },
+      "rollerInCharsheet": {
+        "name": "Würfeln aus dem Charakterbogen",
+        "hint": "Aktiviert den Würfelwurf auf dem Charakterbogen."
+      },
+      "enableCorruption": {
+        "name": "Aktiviere Verderbtheit",
+        "hint": "Füge eine Anzeige für den Grad der Verderbtheit auf dem Charakterbogen hinzu."
+      },
+      "enableAdvancement": {
+        "name": "Charakterentwicklung",
+        "hint": "Der Fortschritt der Charaktere basiert entweder auf der Anzahl der Sitzungen oder auf der Vergabe von Erfahrungspunkten",
+        "choices": {
+          "none": "Keine Weiterentwicklung",
+          "minimalist": "Minimalistische Entwicklung",
+          "xp": "Erfahrungspunkte"
+        }
+      },
+      "enableItemTracking": {
+        "name": "Slotnutzung Objekten aktivieren",
+        "hint": "Zeigt die Slotnutzung für Objekte an und berechnet die verbleibenden Inventar-Slots."
+      },
+      "enableDepletionPoints": {
+        "name": "Aktiviere Abnutzung/Erschöpfung von Gegenständen",
+        "hint": "Wenn ein Gegenstand Abnutzungspunkte benutzt, werden diese für die Charaktergegenstände angezeigt."
+      },
+      "enableCriticalHits": {
+        "name": "Kritische Treffer zulassen",
+        "hint": "Markiert die Probe als 'Kritischen Erfolg', wenn alle Würfel 6 anzeigen."
+      },
+      "enableCriticalFailure": {
+        "name": "Kritische Patzer zulassen",
+        "hint": "Markiert die Probe als 'Kritischen Patzer', wenn alle Würfel 1 anzeigen"
+      },
+      "enableVariableWeaponDamage": {
+        "name": "Variabler Waffenschaden",
+        "hint": "Berechnet variablen Waffenschaden für Angriffsproben."
+      },
+      "enableDamageReduction": {
+        "name": "Schadensreduzierung aktivieren",
+        "hint": "Rüstung bietet eine statische Schadensreduzierung, wenn sie angelegt ist."
+      },
+      "enablePowerOrigin": {
+        "name": "Macht Ursprung aktivieren",
+        "hint": "Fügt ein Textfeld für die Herkunft der Superkraft hinzu."
+      },
+      "enableWeakness": {
+        "name": "Schwäche aktivieren",
+        "hint": "Fügt ein Textfeld für deine Schwachstelle deiner Superkraft hinzu."
+      },
+      "enablePanic": {
+        "name": "Panik aktivieren",
+        "hint": "Fügt einen Zähler hinzu, um den Grad der Panik anzuzeigen."
+      },
+      "enableRadiation": {
+        "name": "Verstrahlung aktivieren",
+        "hint": "Fügt einen Zähler hinzu, um den Grad der Verstrahlung anzuzeigen."
+      },
+      "enableGrit": {
+        "name": "Mut aktivieren",
+        "hint": "Fügt einen Zähler hinzu, um den Mut anzuzeigen."
+      }
+    },
+    "dice": {
+      "modifier": {
+        "focus": "Fokus",
+        "marksman": "Scharfschütze"
+      },
+      "roll": {
+        "disadvantage": "Nachteil Probe",
+        "standard": "Standard Probe",
+        "advantage": "Vorteil Probe",
+        "success": "Erfolg!",
+        "failure": "Misserfolg",
+        "critical": "Kritischer Erfolg!!",
+        "botch": "Kritisches Patzer!!"
+      }
+    },
+    "sheet": {
+      "newItem": "Neuer Gegenstand",
+      "description": "Beschreibung",
+      "none": "nichts"
+    },
+    "actor": {
+      "name": "Name",
+      "npc": "NSC",
+      "people": "Person",
+      "traits": "Eigenschaften",
+      "description": "Beschreibung",
+      "tiny-cthulhu": {
+        "character": "Bio",
+        "heritage": {
+          "header": "Archetyp",
+          "traits": "Archetyp Eigenschaften",
+          "delete": "Entferne Archetyp"
+        }
+      },
+      "tiny-dungeon": {
+        "character": "Character",
+        "heritage": {
+          "header": "Vermächtnis",
+          "traits": "Vermächtnis Merkmale",
+          "delete": "Entferne Vermächtnis"
+        }
+      },
+      "homeland": "Heimat",
+      "age": "Alter",
+      "eyes": "Augen",
+      "hair": "Haar",
+      "familyTrade": "Familientradition",
+      "powerOrigin": "Quelle der Macht",
+      "weakness": "Schwachstelle",
+      "belief": "Glaube",
+      "xp": {
+        "header": "Erfahrung",
+        "progression": "Fortschritt",
+        "total": "Total",
+        "spent": "Ausgegeben",
+        "remaining": "Verbleibend"
+      },
+      "wounds": {
+        "header": "Trefferpunkte",
+        "current": "Aktuell",
+        "max": "Max:",
+        "increaseMax": "Erweiterung Max TP",
+        "help": "Markiere ein Kästchen, wenn du Schaden erleidest. Entferne das Häkchen, wenn du geheilt wurdest."
+      },
+      "radiation": {
+        "header": "Verstrahlung",
+        "current": "Aktuell",
+        "max": "Max:",
+        "increaseMax": "Erweiterung Max Verstrahlung",
+        "help": "Kreuze ein Kästchen an, wenn du unter Verstrahlung leidest."
+      },
+      "corruption": {
+        "test": "Verderbtheits Probe",
+        "header": "Verderbtheit",
+        "current": "Aktuell",
+        "max": "Max:",
+        "increaseMax": "Steigerung der Verderbheits-Schwelle",
+        "help": "Markiere ein Kästchen, wenn du von der Verderbtheit heimgesucht wirst. Entferne das Häkchen, wenn Du geheilt wurdest."
+      },
+      "panic": {
+        "test": "Panik Probe",
+        "header": "Panik",
+        "current": "Aktuell",
+        "help": "Entferne ein Häkchen, wenn du Panik bekommst. Ein Häkchen setzen, wenn du dich wieder fasst. Panikporbe, wenn Panik auf 1 fällt."
+      },
+      "grit": {
+        "header": "Grit",
+        "current": "Aktuell",
+        "help": "Entferne ein Häkchen, wenn du Grit investierst."
+      },
+      "proficiencies": {
+        "header": "Vertraut mit",
+        "mastered": "Gemeistert"
+      },
+      "gear": "Inventar",
+      "equipped": "Ausgerüstet",
+      "weaponry": "Bewaffnung",
+      "wearing": "Kleidung",
+      "actions": {
+        "editTrait": "Eigenschaft editieren",
+        "deleteTrait": "Entferne Eigenschaft"
+      }
+    },
+    "weaponCategories":
+    {
+      "melee": "Nahkampf",
+      "ranged": "Fernkampf"
+    },
+    "weaponTypes": {
+      "none": "",
+      "light": "Leicht",
+      "heavy": "Schwer"
+    },
+    "armorTypes": {
+      "none": "",
+      "light": "Leicht",
+      "medium": "Medium",
+      "heavy": "Schwer"
+    },
+    "corruptionTests": {
+      "none": "nichts",
+      "disadvantage": "Nachteil",
+      "standard": "Standard"
+    },
+    "weapon": {
+      "name": "Name",
+      "type": "Waffentyp",
+      "damage": "Schaden",
+      "slots": "Gegenstände Slots",
+      "description": "Beschreibung",
+      "light": "Leicht",
+      "heavy": "Schwer",
+      "ranged": "Fernkampf",
+      "lightMelee": "L. Nahkampf",
+      "heavyMelee": "S. Nahkampf",
+      "lightRanged": "L. Fernkampf",
+      "heavyRanged": "S. Fernkampf",
+      "lightShort": "L",
+      "heavyShort": "S",
+      "meleeShort": "N",
+      "rangedShort": "F"
+    },
+    "armor": {
+      "name": "Name",
+      "type": "Rüstungstyp",
+      "damageReduction": "SR",
+      "slots": "Gengenstand Slots",
+      "depletion": "Verschleiß",
+      "description": "Beschreibung",
+      "none": "Keine Rüstung"
+    },
+    "gear": {
+      "name": "Name",
+      "slots": "Gengenstand Slots",
+      "depletion": "Verschleiß",
+      "quantity": "Anzahl",
+      "description": "Beschreibung"
+    },
+    "heritage": {
+      "trait": "Vermächtnis Merkmal",
+      "startingHealth": "Einstieg TP",
+      "corruptionThreshold": "Verderbtheits Schwelle"
+    },
+    "trait": {
+      "name": "Name",
+      "description": "Beschreibung"
+    }
+  }
+}

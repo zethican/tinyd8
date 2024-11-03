@@ -1,0 +1,44 @@
+{
+  "id": "tinyd8",
+  "title": "Tiny D8 (Unofficial)",
+  "description": "Tiny D8 system module for Foundry VTT to facilitate playing Tiny D8 games such as Tiny Dungeon and Tiny Frontiers. Currently in Alpha so expect breaking changes in any update.",
+  "authors": [
+    {
+      "id": "Zethican",
+      "name": "Zethican"
+    },
+  ],
+  "version": "12.6.0",
+  "compatibility": {
+    "minimum": 12,
+    "verified": 12
+  },
+  "esmodules": [
+    "module/tinyd8.js",
+    "module/settings.js"
+  ],
+  "styles": [
+    "css/tinyd8.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json"
+    }
+  ],
+  "socket": false,
+  "manifest": "https"//system.json",
+  "download": "https://foundry-tinyd8-master.zip",
+  "protected": false,
+  "initiative": "3d6",
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  }
+}

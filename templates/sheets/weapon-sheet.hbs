@@ -1,0 +1,27 @@
+<form class="{{cssClass}}" autocomplete="off">
+    {{> "systems/tinyd8/templates/partials/item-header.hbs" placeholder='tinyd8.weapon.name'}}
+    <table>
+        <tr>
+            <th class="text-nowrap">{{localize 'tinyd8.weapon.type'}}</th>
+            <th class="text-nowrap">{{localize 'tinyd8.weapon.damage'}}</th>
+            <th class="text-nowrap">{{localize 'tinyd8.weapon.slots'}}</th>
+        </tr>
+        <tr>
+            <td class="text-nowrap">
+                <select name="system.damageType">
+                    {{selectOptions config.weaponTypes selected=data.system.damageType localize="true"}}
+                </select>
+                <select name="system.group">
+                    {{selectOptions config.weaponCategories selected=data.system.group localize="true"}}
+                </select>
+            </td>
+            <td>
+                <input type="text" class="text-center" name="system.damage" value="{{data.system.damage}}" dType="Number"/>
+            </td>
+            <td>
+                <input type="text" class="text-center" name="system.slots" value="{{data.system.slots}}" dType="Number"/>
+            </td>
+        </tr>
+    </table>
+    {{editor descriptionHTML target="system.description" button=true owner=owner editable=editable}}
+</form>

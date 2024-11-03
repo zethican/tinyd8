@@ -1,0 +1,14 @@
+<form class="{{cssClass}}" autocomplete="off">
+    {{> "systems/tinyd8/templates/partials/item-header.hbs" placeholder='tinyd8.trait.name'}}
+    <div class="d-flex">
+        <label class="text-nowrap mr-2">{{localize "tinyd8.heritage.startingHealth"}}</label>
+        <input name="system.startingHealth" type="text" value="{{data.system.startingHealth}}" placeholder="{{localize "tinyd8.heritage.startingHealth"}}" dType="Number"/>
+        <label class="text-nowrap mx-2">{{localize "tinyd8.heritage.corruptionThreshold"}}</label>
+        <input name="system.corruptionThreshold" type="text" value="{{data.system.corruptionThreshold}}" placeholder="{{localize "tinyd8.heritage.corruptionThreshold"}}" dType="Number"/>
+    </div>
+    <h2 class="section-header">{{localize "tinyd8.sheet.description"}}</h2>
+    {{editor descriptionHTML target="system.description" button=true owner=owner editable=editable}}
+
+    <h2 class="section-header">{{localize "tinyd8.heritage.trait"}}</h2>
+    {{editor traitHTML target="system.trait" button=true owner=owner editable=editable}}
+</form>

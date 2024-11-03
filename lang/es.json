@@ -1,0 +1,251 @@
+{
+  "tinyd8": {
+    "TinyD8HeroSheet": "Héroe",
+    "TinyD8NpcSheet": "PNJ",
+    "system": {
+      "name": "Tiny D8 2e",
+      "dieRoller": "Lanzador de Dados"
+    },
+    "settings": {
+      "title": "Ajustes del Sistema",
+      "label": "Ajustes del Sistema",
+      "description": "Escoge las reglas y mecánicas opcionales que quieras activar de entre las opciones siguientes.",
+      "theme": {
+        "name": "Tema",
+        "hint": "Selecciona el tema para una partida concreta de Tiny D8",
+        "choices": {
+          "cthulhu": "Tiny Cthulhu",
+          "dungeon": "Tiny Dungeon 2e"
+        }
+      },
+      "enableCorruption": {
+        "name": "Activar Corrupción",
+        "hint": "Añade un contador a la hoja de personaje para marcar la Corrupción."
+      },
+      "enableAdvancement": {
+        "name": "Progreso del Personaje",
+        "hint": "Progreso de los personajes basado en el número de sesiones o en puntos de experiencia.",
+        "choices": {
+          "none": "Ninguno",
+          "minimalist": "Avance Minimalista",
+          "xp": "Puntos de Experiencia"
+        }
+      },
+      "rollerInCharsheet": {
+        "name": "Dice Roller in Character Sheet",
+        "hint": "Enable to have a Dice Roller in the Character Sheet."
+      },
+      "enableItemTracking": {
+        "name": "Activar Huecos de Inventario",
+        "hint": "Muestra el uso de huecos en los objetos y calcula los huecos de inventario restantes."
+      },
+      "enableDepletionPoints": {
+        "name": "Activar el Desgaste de Objetos",
+        "hint": "Cuando se usan puntos de desgaste objetos, los registra en los objetos de los personajes."
+      },
+      "enableCriticalHits": {
+        "name": "Activar Éxitos Críticos",
+        "hint": "Marca una prueba como 'Éxito Crítico' cuando todos los dados son 6."
+      },
+      "enableCriticalFailure": {
+        "name": "Activar Fallos Críticos",
+        "hint": "Marca una prueba como 'Fallo Crítico' cuando todos los dados son 1."
+      },
+      "enableVariableWeaponDamage": {
+        "name": "Daño de Arma Variable",
+        "hint": "Calcula el daño variable de las armas al atacar."
+      },
+      "enableDamageReduction": {
+        "name": "Activar Reducción de Daño",
+        "hint": "La armadura aplica una reducción estática de daño cuando está activada."
+      },
+      "enablePowerOrigin": {
+        "name": "Activar Origen de Poder",
+        "hint": "Añade un campo de texto para el Origen de tu Super Poder."
+      },
+      "enableWeakness": {
+        "name": "Activar Debilidad",
+        "hint": "Añade un campo de texto para tu Super Debilidad."
+      },
+      "enablePanic": {
+        "name": "Activar Pánico",
+        "hint": "Añade un contador a la hoja de personaje para marcar el Pánico."
+      },
+      "enableRadiation": {
+        "name": "Activar Radiación",
+        "hint": "Añade un contador a la hoja de personaje para marcar la Radiación."
+      },
+      "enableGrit": {
+        "name": "Activar Coraje",
+        "hint": "Añade un contador a la hoja de personaje para marcar el Coraje."
+      }
+    },
+    "dice": {
+      "modifier": {
+        "focus": "Foco",
+        "marksman": "Francotirador"
+      },
+      "roll": {
+        "disadvantage": "Desventaja",
+        "standard": "Prueba normal",
+        "advantage": "Ventaja",
+        "success": "¡Éxito!",
+        "failure": "Fallo",
+        "critical": "¡¡Éxito Crítico!!",
+        "botch": "¡¡Fallo Crítico!!"
+      }
+    },
+    "sheet": {
+      "newItem": "Nuevo Objeto",
+      "description": "Descripción",
+      "none": "Ninguno"
+    },
+    "actor": {
+      "name": "Nombre",
+      "npc": "PNJ",
+      "people": "Gente",
+      "traits": "Rasgos",
+      "description": "Descripción",
+      "tiny-cthulhu": {
+        "character": "Bio",
+        "heritage": {
+          "header": "Arquetipo",
+          "traits": "Rasgo de Arquetipo",
+          "delete": "Eliminar Arquetipo"
+        }
+      },
+      "tiny-dungeon": {
+        "character": "Personaje",
+        "heritage": {
+          "header": "Linaje",
+          "traits": "Rasgo de Linaje",
+          "delete": "Eliminar Linaje"
+        }
+      },
+      "homeland": "Origen",
+      "age": "Edad",
+      "eyes": "Ojos",
+      "hair": "Pelo",
+      "familyTrade": "Negocio Familiar",
+      "powerOrigin": "Origen de Poder",
+      "weakness": "Debilidad",
+      "belief": "Creencia",
+      "xp": {
+        "header": "Experiencia",
+        "progression": "Progreso",
+        "total": "Total",
+        "spent": "Gastado",
+        "remaining": "Restante"
+      },
+      "wounds": {
+        "header": "Heridas",
+        "current": "Actuales",
+        "max": "Máximas:",
+        "increaseMax": "Incrementar Salud Máxima",
+        "help": "Marca una casilla cuando recibas daño. Desmarca cuando te cures."
+      },
+      "radiation": {
+        "header": "Radiación",
+        "current": "Actual",
+        "max": "Máxima:",
+        "increaseMax": "Incrementar Radiación Máxima",
+        "help": "Marca una casilla cuando recibas radiación."
+      },
+      "corruption": {
+        "test": "Prueba de Corrupción",
+        "header": "Corrupción",
+        "current": "Actual",
+        "max": "Máxima:",
+        "increaseMax": "Incrementar Umbral de Corrupción",
+        "help": "Marca una casilla cuando recibas corrupción. Desmarca cuando te recuperes."
+      },
+      "panic": {
+        "test": "Prueba de Pánico",
+        "header": "Pánico",
+        "current": "Actual",
+        "help": "Desmarca una casilla cuando recibes Pánico."
+      },
+      "grit": {
+        "header": "Coraje",
+        "current": "Actual",
+        "help": "Desmarca una casilla cuando gastes Coraje."
+      },
+      "proficiencies": {
+        "header": "Competencia",
+        "mastered": "Maestría"
+      },
+      "gear": "Inventario",
+      "equipped": "Equipado",
+      "weaponry": "Armamento",
+      "wearing": "Vestido",
+      "actions": {
+        "editTrait": "Editar Rasgo",
+        "deleteTrait": "Eliminar Rasgo"
+      }
+    },
+    "weaponCategories":
+    {
+      "melee": "Cuerpo a Cuerpo",
+      "ranged": "A Distancia"
+    },
+    "weaponTypes": {
+      "none": "",
+      "light": "Ligera",
+      "heavy": "Pesada"
+    },
+    "armorTypes": {
+      "none": "",
+      "light": "Ligera",
+      "medium": "Media",
+      "heavy": "Pesada"
+    },
+    "corruptionTests": {
+      "none": "Ninguno",
+      "disadvantage": "Desventaja",
+      "standard": "Normal"
+    },
+    "weapon": {
+      "name": "Nombre",
+      "type": "Tipo de Arma",
+      "damage": "Daño",
+      "slots": "Huecos de Inventario",
+      "description": "Descripción",
+      "light": "Ligera",
+      "heavy": "Pesada",
+      "ranged": "A Distancia",
+      "lightMelee": "L. CaC",
+      "heavyMelee": "P. CaC",
+      "lightRanged": "L. A Dist.",
+      "heavyRanged": "P. A Dist.",
+      "lightShort": "L",
+      "heavyShort": "P",
+      "meleeShort": "CaC",
+      "rangedShort": "Dist"
+    },
+    "armor": {
+      "name": "Nombre",
+      "type": "Tipo de Armadura",
+      "damageReduction": "RD",
+      "slots": "Huecos de Inventario",
+      "depletion": "Deterioro",
+      "description": "Descripción",
+      "none": "Sin Armadura"
+    },
+    "gear": {
+      "name": "Nombre",
+      "slots": "Huecos de Inventario",
+      "depletion": "Deterioro",
+      "quantity": "Cantidad",
+      "description": "Descripción"
+    },
+    "heritage": {
+      "trait": "Rasgo de Linaje",
+      "startingHealth": "Salud Inicial",
+      "corruptionThreshold": "Umbral de Corrupción"
+    },
+    "trait": {
+      "name": "Nombre",
+      "description": "Descripción"
+    }
+  }
+}
