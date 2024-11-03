@@ -33,8 +33,8 @@
     }
   ],
   "socket": false,
-  "manifest": "https"//system.json",
-  "download": "https://foundry-tinyd8-master.zip",
+  "manifest": "https://raw.githubusercontent.com/zethican/tinyd8/refs/heads/main/system.json",
+  "download": "https://github.com/zethican/tinyd8/archive/refs/heads/main.zip",
   "protected": false,
   "initiative": "3d6",
   "grid": {
