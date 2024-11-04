@@ -34,7 +34,7 @@
   ],
   "socket": false,
   "manifest": "https://raw.githubusercontent.com/zethican/tinyd8/refs/heads/main/system.json",
-  "download": "https://github.com/zethican/tinyd8/archive/refs/heads/main.zip",
+  "download": "https://github.com/zethican/tinyd8/archive/refs/tags/foundry-tiny-d8.zip",
   "protected": false,
   "initiative": "3d6",
   "grid": {
